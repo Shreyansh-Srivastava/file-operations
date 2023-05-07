@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#filename{
+    padding-left: 10px;
+    width: 250px;
+    margin: 1.5%;
+}
+textarea {
+    padding-left: 10px;
+    margin: 1.5%;
+    width: 250px;
+    height: 90px;
+  }
+body{
+    background-color: rgb(70, 62, 231);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+h2 {
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+h4 {
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: darkblue;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px 80px;
+    margin: 4px 4px;
+    width: 95%;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+#op{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+#res{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
